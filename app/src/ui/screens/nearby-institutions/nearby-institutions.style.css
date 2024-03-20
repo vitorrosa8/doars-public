@@ -1,0 +1,10 @@
+.map__marker{
+    margin-top: -30px;
+    display: flex;
+    background-color: var(--base-1);
+}
+
+.selected__marker{
+    background-color: var(--base-3);
+    cursor: pointer;
+}

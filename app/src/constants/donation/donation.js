@@ -1,0 +1,15 @@
+export const DONATION_TYPES = [
+    { value: 'MONEY', label: 'Dinheiro' },
+    { value: 'FOOD', label: 'Alimentos' },
+    { value: 'CLOTHES', label: 'Roupas' },
+    { value: 'PERSONAL_CARE', label: 'Produtos de higiene pessoal' },
+    { value: 'SCHOOL_SUPPLIES', label: 'Material escolar' },
+    { value: 'TOYS_GAMES', label: 'Brinquedos e jogos' },
+    { value: 'MEDICAL_EQUIPMENT', label: 'Equipamentos médicos' },
+    { value: 'VOLUNTEER_TIME', label: 'Tempo voluntário' },
+    { value: 'BLOOD', label: 'Sangue' },
+    { value: 'TECHNOLOGY', label: 'Tecnologia' },
+    { value: 'MEDICATION', label: 'Medicamentos' },
+    { value: 'FURNITURE', label: 'Móveis' },
+    { value: 'OTHERS', label: 'Outros' },
+  ]

@@ -1,0 +1,24 @@
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.springframework.security: DEBUG
+server:
+  error:
+    include-message: always
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/tcc
+    username: tcc
+    password: tcc
+  jpa:
+    hibernate:
+#    ddl-auto: create-drop
+      ddl-auto: update
+#      ddl-auto: validate
+  session:
+    store-type: jdbc
+    timeout: 600
+  web:
+    locale: pt_BR
+    locale_resolver: fixed
